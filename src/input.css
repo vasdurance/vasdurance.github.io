@@ -3,11 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply font-extralight;
+  }
   h1 {
-    @apply text-center text-2xl;
+    @apply font-medium text-center text-2xl;
   }
   h2 {
-    @apply text-xl;
+    @apply font-medium text-xl;
   }
   section {
     @apply mb-8;
