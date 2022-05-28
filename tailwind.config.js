@@ -22,7 +22,8 @@ module.exports = {
         'slide-in': 'slide-in 600ms ease-out 2s 1 normal forwards running'
       },
       fontFamily: {
-        sans: ['Nunito', ...fontFamily.sans]
+        sans: ['Nunito', ...fontFamily.sans],
+        handwriting: ['Caveat', 'Nunito', ...fontFamily.sans]
       },
       keyframes: {
         'slide-in': {

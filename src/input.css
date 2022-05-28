@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply font-extralight;
+    @apply font-extralight text-lg;
   }
   h1 {
     @apply font-medium mb-4 text-center text-2xl;

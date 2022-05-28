@@ -424,6 +424,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 html {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-weight: 200;
 }
 
@@ -564,6 +566,14 @@ ul {
   margin-bottom: 3rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -584,8 +594,8 @@ ul {
   width: 33.333333%;
 }
 
-.max-w-lg {
-  max-width: 32rem;
+.max-w-md {
+  max-width: 28rem;
 }
 
 .max-w-2xl {
@@ -637,6 +647,10 @@ ul {
   justify-content: space-between;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-12 {
   gap: 3rem;
 }
@@ -675,13 +689,42 @@ ul {
   padding: 1rem;
 }
 
-.text-center {
-  text-align: center;
+.text-left {
+  text-align: left;
+}
+
+.font-handwriting {
+  font-family: Caveat, Nunito, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .drop-shadow-md {
