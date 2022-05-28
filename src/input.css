@@ -7,12 +7,24 @@
     @apply font-extralight;
   }
   h1 {
-    @apply font-medium text-center text-2xl;
+    @apply font-medium mb-4 text-center text-2xl;
   }
   h2 {
-    @apply font-medium text-xl;
+    @apply font-medium mb-2 text-xl;
+  }
+  p {
+    @apply mb-4 last:mb-0;
   }
   section {
-    @apply mb-8;
+    @apply mb-16;
+  }
+  td, th {
+    @apply px-2 py-4;
+  }
+  tr {
+    @apply border-b border-gray-200
+  }
+  ul {
+    @apply list-inside list-disc py-2;
   }
 }

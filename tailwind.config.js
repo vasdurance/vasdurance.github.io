@@ -13,6 +13,10 @@ module.exports = {
         '2xl': '6rem'
       }
     },
+    screens: {
+      'sm': '600px',
+      'lg': '1024px'
+    },
     extend: {
       fontFamily: {
         sans: ['Nunito', ...fontFamily.sans]
