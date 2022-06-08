@@ -26,7 +26,7 @@
   }
 
   td, th {
-    @apply px-2 py-4;
+    @apply px-6 py-4;
   }
   tr {
     @apply border-b border-gray-200
