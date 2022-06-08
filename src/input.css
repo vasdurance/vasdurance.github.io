@@ -15,9 +15,16 @@
   p {
     @apply mb-4 last:mb-0;
   }
-  section {
-    @apply mb-16;
+  section > div {
+    @apply py-8;
   }
+  section:nth-child(odd) {
+    @apply bg-[#eae7dc];
+  }
+  section:nth-child(even) {
+    @apply bg-[#f4f3ec];
+  }
+
   td, th {
     @apply px-2 py-4;
   }
@@ -26,5 +33,11 @@
   }
   ul {
     @apply list-inside list-disc py-2;
+  }
+}
+
+@layer components {
+  .box {
+    @apply bg-white;
   }
 }
