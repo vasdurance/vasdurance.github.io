@@ -15,7 +15,7 @@
   p {
     @apply mb-4 last:mb-0;
   }
-  section > div {
+  header > div, section > div, footer > div {
     @apply py-8;
   }
   section:nth-child(odd) {
@@ -24,7 +24,6 @@
   section:nth-child(even) {
     @apply bg-[#f4f3ec];
   }
-
   td, th {
     @apply px-6 py-4;
   }
@@ -39,5 +38,8 @@
 @layer components {
   .box {
     @apply bg-white;
+  }
+  .card {
+    @apply animate-slide-in bg-white border drop-shadow-md max-w-md p-8 rounded;
   }
 }

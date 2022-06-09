@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       animation: {
-        'slide-in': 'slide-in 600ms ease-out 2s 1 normal forwards running'
+        'slide-in': 'slide-in 200ms ease-out 2s 1 normal forwards running'
       },
       fontFamily: {
         sans: ['Nunito', ...fontFamily.sans],
@@ -27,7 +27,7 @@ module.exports = {
       },
       keyframes: {
         'slide-in': {
-          '0%': { transform: 'translateX(200%)' },
+          '0%': { transform: 'translateX(100%)' },
           '100%': {transform: 'translateX(0)' }
         }
       }
