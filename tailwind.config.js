@@ -13,10 +13,6 @@ module.exports = {
         '2xl': '6rem'
       }
     },
-    screens: {
-      'sm': '600px',
-      'lg': '1024px'
-    },
     extend: {
       animation: {
         'slide-in': 'slide-in 200ms ease-out 2s 1 normal forwards running'

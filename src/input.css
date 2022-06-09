@@ -40,6 +40,6 @@
     @apply bg-white;
   }
   .card {
-    @apply animate-slide-in bg-white border drop-shadow-md max-w-md p-8 rounded;
+    @apply animate-slide-in bg-white border drop-shadow-md flex-[0_0_550px] p-8 rounded;
   }
 }
