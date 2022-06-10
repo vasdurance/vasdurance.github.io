@@ -1,5 +1,5 @@
 <!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
-<!-- @todo: My values checkbox list -->
+
 <!-- @todo: About me in shadow box -->
 <!-- @todo: Mobile -->
 <!-- @todo: Sticky scrollspy menu -->
@@ -21,7 +21,7 @@
         class="absolute bottom-0 h-full object-cover w-full -z-10"
         srcset="desk-lg.jpeg 2400w,desk-md.jpeg 1920w, desk-sm.jpeg 640w" src="desk-fallback.jpeg"
       />
-      <div class="container flex gap-8 items-center justify-evenly">
+      <div class="container flex gap-8 items-center justify-between">
         <div>
           <h1 class="text-left text-3xl">Sarah Durance</h1>
           <h2>Communications<br/>and Social media</h2>
@@ -38,19 +38,19 @@
       <div class="container">
         <h1>My services </h1>
         <div class="gap-12 grid grid-cols-2 max-w-2xl mx-auto mb-12">
-          <div class="aspect-[1.2/1] box flex flex-col items-center justify-center p-4">
+          <div class="aspect-[1.2/1] box flex flex-col items-center justify-center">
             <h2>Communication</h2>
             <p>Finding the right words and right tone is not always easy. I will help you with your correspondence in German/English so you don’t have to worry about it.</p>
           </div>
-          <div class="aspect-[1.2/1] box flex flex-col items-center justify-center p-4">
+          <div class="aspect-[1.2/1] box flex flex-col items-center justify-center">
             <h2>Personal assistance</h2>
             <p>Need help with a presentation, hiring new staff, organising your workload or private matters? Just send it over, I will do it for you!</p>
           </div>
-          <div class="aspect-[1.2/1] box flex flex-col items-center justify-center p-4">
+          <div class="aspect-[1.2/1] box flex flex-col items-center justify-center">
             <h2>Project assistance</h2>
             <p>You have got a new project coming up and don’t even know where to start? I will support you from the start, all the steps to completion.</p>
           </div>
-          <div class="aspect-[1.2/1] box flex flex-col items-center justify-center p-4">
+          <div class="aspect-[1.2/1] box flex flex-col items-center justify-center">
             <h2>Social Media</h2>
             <p>Visibility and positioning are now more important than ever. You want to show your brand, your product, your service, your personality to the online world? It can be pretty time-consuming, and I will help you!</p>
           </div>
@@ -60,7 +60,7 @@
     <section>
       <div class="container">
         <h1>My rates</h1>
-        <div class="box max-w-2xl mb-6 mx-auto p-4">
+        <div class="box max-w-2xl mb-6 mx-auto">
           <table>
             <thead>
             <tr>
@@ -180,14 +180,16 @@
     </section>
     <section>
       <div class="container">
-        <h1>About me</h1>
-        <p>I am a remote assistant with professional experience in project management, account management, HR, and sales. I have worked in different industries, like tourism and finance in Berlin, Tokyo and London. I have a BA in East Asia Studies and Economics and an MA in Intercultural Communication.</p>
-        <p>Since starting my business I have worked with clients in the fields of relocation services, personal services, business start ups, social media management (Instagram, LinkedIn).</p>
-        <p>I am passionate about helping you with the tasks that hold you back from focusing on your core business.</p>
-        <p>I have lived in France, Belgium, Japan and the UK. The experience of living abroad and having an international family shape my life everyday.</p>
-        <p>I am interested in fitness and a healthy lifestyle. I am a Pilates instructor, runner and mum of two.</p>
-        <p>I am looking forward to hearing from you!</p>
-        <p>Sarah Durance<br/><a href="mailto:va.sdurance@gmail.com">va.sdurance@gmail.com</a></p>
+        <div class="box">
+          <h1>About me</h1>
+          <p>I am a remote assistant with professional experience in project management, account management, HR, and sales. I have worked in different industries, like tourism and finance in Berlin, Tokyo and London. I have a BA in East Asia Studies and Economics and an MA in Intercultural Communication.</p>
+          <p>Since starting my business I have worked with clients in the fields of relocation services, personal services, business start ups, social media management (Instagram, LinkedIn).</p>
+          <p>I am passionate about helping you with the tasks that hold you back from focusing on your core business.</p>
+          <p>I have lived in France, Belgium, Japan and the UK. The experience of living abroad and having an international family shape my life everyday.</p>
+          <p>I am interested in fitness and a healthy lifestyle. I am a Pilates instructor, runner and mum of two.</p>
+          <p>I am looking forward to hearing from you!</p>
+          <p>Sarah Durance<br/><a href="mailto:va.sdurance@gmail.com">va.sdurance@gmail.com</a></p>
+        </div>
       </div>
     </section>
     <footer>
