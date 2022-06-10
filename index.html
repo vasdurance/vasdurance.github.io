@@ -1,6 +1,6 @@
 <!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
+<!-- @todo: Mobile -->
 <!-- @todo: Sticky scrollspy menu -->
-<!-- @todo: Responsive header image -->
 <!-- @todo: Email form -->
 <!-- @todo: My values checkbox list -->
 <!-- @todo: About me in shadow box -->
@@ -17,10 +17,10 @@
   <body>
     <header class="relative">
       <img
-        class="absolute bottom-0 lg:-bottom-[200px] h-auto w-full -z-10"
+        class="absolute bottom-0 h-full object-cover w-full -z-10"
         srcset="desk-lg.jpeg 2400w,desk-md.jpeg 1920w, desk-sm.jpeg 640w" src="desk-fallback.jpeg"
       />
-      <div class="container flex gap-8 items-center justify-between">
+      <div class="container flex gap-8 items-center justify-evenly">
         <div>
           <h1 class="text-left text-3xl">Sarah Durance</h1>
           <h2>Communications<br/>and Social media</h2>
