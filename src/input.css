@@ -42,4 +42,7 @@
   .card {
     @apply animate-slide-in bg-white border drop-shadow-md flex-[0_0_550px] p-8 rounded;
   }
+  li .material-icons {
+    @apply align-middle leading-[34px] mr-1;
+  }
 }
