@@ -1,7 +1,7 @@
 <!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
 <!-- @todo: Email form -->
 <!-- @todo: Sticky scrollspy menu -->
-<!-- @todo: Mobile -->
+<!-- @todo: Table scroll fade-out -->
 <!doctype html>
 <html>
   <head>
@@ -36,7 +36,7 @@
     <section>
       <div class="container">
         <h1>My services </h1>
-        <div class="gap-4 md:gap-12 grid md:grid-cols-2 max-w-2xl mx-auto mb-12">
+        <div class="gap-4 md:gap-12 grid md:grid-cols-2 max-w-2xl mx-auto">
           <div class="md:aspect-[1.2/1] box flex flex-col items-center justify-center">
             <h2>Communication</h2>
             <p>Finding the right words and right tone is not always easy. I will help you with your correspondence in German/English so you don’t have to worry about it.</p>
@@ -60,7 +60,28 @@
       <div class="container">
         <h1>My rates</h1>
         <div class="box max-w-2xl mb-6 mx-auto overflow-x-auto">
-          <table>
+          <table class="md:hidden">
+            <tbody>
+              <tr>
+                <th scope="row">One-off</th>
+                <td>59,- Euros/hour</td>
+              </tr>
+              <tr>
+                <th scope="row">Small business package</th>
+                <td>55,- Euros/hour</td>
+              </tr>
+              <tr>
+                <th scope="row">Medium business package</th>
+                <td>49,- Euros/hour</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="border-b-0">
+                <td colspan="3">Rates for Social Media management services (Instagram, LinkedIn) on request.</td>
+              </tr>
+            </tfoot>
+          </table>
+          <table class="hidden md:block">
             <thead>
               <tr>
                 <th>One-off</th>
@@ -192,8 +213,9 @@
       </div>
     </section>
     <footer>
-      <div class="container py-8 text-center">
-        <button>Back to top</button>
+      <div class="container flex gap-8 items-center justify-center py-8 text-sm">
+        <a href="imprint.html">Imprint</a>
+        <a href="datenschutzerklaerung.html">Datenschutzerklärung</a>
       </div>
     </footer>
   </body>
