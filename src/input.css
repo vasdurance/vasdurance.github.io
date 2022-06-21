@@ -16,13 +16,16 @@
     @apply mb-4 last:mb-0;
   }
   header > div, section > div, footer > div {
-    @apply py-8;
+    @apply py-12;
   }
   section:nth-child(odd) {
-    @apply bg-[#eae7dc];
+    @apply bg-[#efece3];
   }
   section:nth-child(even) {
     @apply bg-[#f4f3ec];
+  }
+  section:nth-child(4) {
+    @apply bg-transparent
   }
   td, th {
     @apply px-6 py-4;

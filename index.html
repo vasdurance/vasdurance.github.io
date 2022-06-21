@@ -1,7 +1,7 @@
 <!-- npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
-<!-- @todo: Email form -->
-<!-- @todo: Sticky scrollspy menu -->
-<!-- @todo: Table scroll fade-out -->
+<!-- @todo: Values picture -->
+<!-- @todo: Contact me popout -->
+<!-- @todo: Bold software packages -->
 <!doctype html>
 <html>
   <head>
@@ -19,7 +19,7 @@
         class="absolute bottom-0 h-full object-cover w-full"
         srcset="desk-lg.jpeg 2400w,desk-md.jpeg 1920w, desk-sm.jpeg 640w" src="desk-fallback.jpeg"
       />
-      <div class="absolute inset-0 bg-white/50"></div>
+      <div class="absolute inset-0 bg-white/70"></div>
       <div class="container flex flex-col lg:flex-row gap-8 items-center justify-between">
         <div class="flex flex-col items-center order-2 lg:order-1 z-10">
           <h1 class="text-left text-3xl">Sarah Durance</h1>
@@ -135,7 +135,12 @@
         <p class="italic text-sm">I currently do not charge VAT (in accordance with § 19 UStG).</p>
       </div>
     </section>
-    <section>
+    <section class="bg-transparent relative">
+      <img
+        class="absolute bottom-0 h-full object-cover w-full -z-10"
+        srcset="desk-2-lg.jpeg 2400w,desk-2-md.jpeg 1920w, desk-2-sm.jpeg 640w" src="desk-fallback.jpeg"
+      />
+      <div class="absolute inset-0 bg-white/70 -z-10"></div>
       <div class="container">
         <h1>My values </h1>
         <ul class="list-none">
@@ -164,35 +169,35 @@
         <ul class="list-none">
           <li>
             <span class="material-icons">build_circle</span>
-            <span>Trello and Asana to organise projects and share what I am working on</span>
+            <span><b>Trello</b> and <b>Asana</b> to organise projects and share what I am working on</span>
           </li>
           <li>
             <span class="material-icons">build_circle</span>
-            LastPass to make sure passwords and sensitive data are stored in a safe place
+            <b>LastPass</b> to make sure passwords and sensitive data are stored in a safe place
           </li>
           <li>
             <span class="material-icons">build_circle</span>
-            Google Workspace, MS business XX to create and share documents.
+            <b>Google Workspace</b>, <b>MS business XX</b> to create and share documents.
           </li>
           <li>
             <span class="material-icons">build_circle</span>
-            Clockify to track the time that I spend working for you
+            <b>Clockify</b> to track the time that I spend working for you
           </li>
           <li>
             <span class="material-icons">build_circle</span>
-            Adobe Acrobat to create, edit and organise PDFs
+            <b>Adobe Acrobat</b> to create, edit and organise PDFs
           </li>
           <li>
             <span class="material-icons">build_circle</span>
-            Canva for designing posts on social media and other design work
+            <b>Canva</b> for designing posts on social media and other design work
           </li>
           <li>
             <span class="material-icons">build_circle</span>
-            WhatsApp and Slack to keep communication simple and quick
+            <b>WhatsApp</b> and <b>Slack</b> to keep communication simple and quick
           </li>
           <li>
             <span class="material-icons">build_circle</span>
-            Gmail for email correspondence.
+            <b>Gmail</b> for email correspondence.
           </li>
         </ul>
         <p class="italic text-sm">Please note that I do not possess full access to all these programs and additional charges may apply for premium versions.</p>
