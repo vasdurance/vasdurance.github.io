@@ -622,7 +622,7 @@ ul {
 .card {
   -webkit-animation: slide-in 200ms ease-out 2s 1 normal forwards running;
           animation: slide-in 200ms ease-out 2s 1 normal forwards running;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   border-width: 1px;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -650,6 +650,21 @@ li .material-icons {
   line-height: 34px;
 }
 
+.linkedin section:nth-child(odd) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.linkedin section:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.linkedin a {
+  --tw-text-opacity: 1;
+  color: rgb(2 132 199 / var(--tw-text-opacity));
+}
+
 .fixed {
   position: fixed;
 }
@@ -671,14 +686,6 @@ li .material-icons {
 
 .bottom-0 {
   bottom: 0px;
-}
-
-.bottom-8 {
-  bottom: 2rem;
-}
-
-.right-8 {
-  right: 2rem;
 }
 
 .bottom-4 {
@@ -726,10 +733,6 @@ li .material-icons {
   margin-bottom: 1.5rem;
 }
 
-.inline-block {
-  display: inline-block;
-}
-
 .inline {
   display: inline;
 }
@@ -764,11 +767,6 @@ li .material-icons {
 
 .max-w-2xl {
   max-width: 42rem;
-}
-
-.translate-x-1\/2 {
-  --tw-translate-x: 50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .-translate-x-1\/2 {
@@ -820,8 +818,8 @@ li .material-icons {
   border-radius: 9999px;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .border {
@@ -837,9 +835,9 @@ li .material-icons {
   border-color: rgb(253 186 116 / var(--tw-border-opacity));
 }
 
-.border-orange-900 {
+.border-sky-600 {
   --tw-border-opacity: 1;
-  border-color: rgb(124 45 18 / var(--tw-border-opacity));
+  border-color: rgb(2 132 199 / var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -860,41 +858,28 @@ li .material-icons {
   background-color: rgb(255 247 237 / var(--tw-bg-opacity));
 }
 
+.bg-white\/50 {
+  background-color: rgb(255 255 255 / 0.5);
+}
+
+.bg-sky-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 249 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .px-4 {
@@ -907,17 +892,8 @@ li .material-icons {
   padding-bottom: 0.5rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .text-left {
   text-align: left;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .align-top {
@@ -959,11 +935,6 @@ li .material-icons {
   font-style: italic;
 }
 
-.text-orange-900 {
-  --tw-text-opacity: 1;
-  color: rgb(124 45 18 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -975,16 +946,8 @@ li .material-icons {
 }
 
 @media (min-width: 768px) {
-  .md\:bottom-8 {
-    bottom: 2rem;
-  }
-
   .md\:block {
     display: block;
-  }
-
-  .md\:inline {
-    display: inline;
   }
 
   .md\:hidden {
@@ -1002,10 +965,6 @@ li .material-icons {
   .md\:gap-12 {
     gap: 3rem;
   }
-
-  .md\:p-4 {
-    padding: 1rem;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1013,16 +972,12 @@ li .material-icons {
     bottom: 2rem;
   }
 
-  .lg\:right-8 {
-    right: 2rem;
-  }
-
-  .lg\:left-0 {
-    left: 0px;
-  }
-
   .lg\:left-auto {
     left: auto;
+  }
+
+  .lg\:right-8 {
+    right: 2rem;
   }
 
   .lg\:order-1 {
@@ -1031,14 +986,6 @@ li .material-icons {
 
   .lg\:order-2 {
     order: 2;
-  }
-
-  .lg\:mr-0 {
-    margin-right: 0px;
-  }
-
-  .lg\:mr-8 {
-    margin-right: 2rem;
   }
 
   .lg\:block {
@@ -1056,9 +1003,5 @@ li .material-icons {
 
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:text-right {
-    text-align: right;
   }
 }

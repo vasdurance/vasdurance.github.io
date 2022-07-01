@@ -46,9 +46,18 @@
     @apply bg-white drop-shadow-lg p-4;
   }
   .card {
-    @apply animate-slide-in bg-white border drop-shadow-lg lg:flex-[0_0_550px] w-full lg:max-w-none p-4 md:p-8 rounded-lg;
+    @apply animate-slide-in bg-white border drop-shadow-lg lg:flex-[0_0_550px] w-full lg:max-w-none p-4 md:p-8 rounded;
   }
   li .material-icons {
     @apply align-middle leading-[34px] mr-1;
+  }
+  .linkedin section:nth-child(odd) {
+    @apply bg-gray-100;
+  }
+  .linkedin section:nth-child(even) {
+    @apply bg-gray-50;
+  }
+  .linkedin a {
+    @apply text-sky-600;
   }
 }
