@@ -472,7 +472,7 @@ section:nth-child(even) {
   background-color: rgb(244 243 236 / var(--tw-bg-opacity));
 }
 
-section:nth-child(4) {
+section:nth-child(4), section:nth-child(6) {
   background-color: transparent;
 }
 
@@ -769,6 +769,10 @@ li .material-icons {
   max-width: 42rem;
 }
 
+.flex-\[1_0_40\%\] {
+  flex: 1 0 40%;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -860,11 +864,6 @@ li .material-icons {
 
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-sky-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(240 249 255 / var(--tw-bg-opacity));
 }
 
 .bg-gray-50 {
