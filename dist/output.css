@@ -642,7 +642,7 @@ ul {
   }
 }
 
-li .material-icons {
+li.tool .material-icons {
   margin-right: 0.25rem;
   vertical-align: middle;
   line-height: 34px;
@@ -731,8 +731,8 @@ li .material-icons {
   margin-bottom: 1.5rem;
 }
 
-.inline {
-  display: inline;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .flex {
@@ -869,6 +869,11 @@ li .material-icons {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -924,17 +929,16 @@ li .material-icons {
   line-height: 1.25rem;
 }
 
+.text-\[4rem\] {
+  font-size: 4rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
 
 .italic {
   font-style: italic;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .drop-shadow-lg {
@@ -987,10 +991,6 @@ li .material-icons {
 
   .lg\:block {
     display: block;
-  }
-
-  .lg\:hidden {
-    display: none;
   }
 
   .lg\:translate-x-0 {
