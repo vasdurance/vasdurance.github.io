@@ -22,13 +22,10 @@
     @apply py-12;
   }
   section:nth-child(odd) {
-    @apply bg-[#efece3];
-  }
-  section:nth-child(even) {
     @apply bg-[#f4f3ec];
   }
-  section:nth-child(4),section:nth-child(6)  {
-    @apply bg-transparent
+  section:nth-child(even) {
+    @apply bg-[#fbfbf9];
   }
   td, th {
     @apply px-6 py-4;

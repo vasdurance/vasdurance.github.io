@@ -464,16 +464,12 @@ header > div, section > div, footer > div {
 
 section:nth-child(odd) {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 236 227 / var(--tw-bg-opacity));
+  background-color: rgb(244 243 236 / var(--tw-bg-opacity));
 }
 
 section:nth-child(even) {
   --tw-bg-opacity: 1;
-  background-color: rgb(244 243 236 / var(--tw-bg-opacity));
-}
-
-section:nth-child(4), section:nth-child(6) {
-  background-color: transparent;
+  background-color: rgb(251 251 249 / var(--tw-bg-opacity));
 }
 
 td, th {
@@ -698,10 +694,6 @@ li.tool .material-icons {
   z-index: 10;
 }
 
-.-z-10 {
-  z-index: -10;
-}
-
 .order-2 {
   order: 2;
 }
@@ -765,10 +757,6 @@ li.tool .material-icons {
 
 .max-w-2xl {
   max-width: 42rem;
-}
-
-.flex-\[1_0_40\%\] {
-  flex: 1 0 40%;
 }
 
 .-translate-x-1\/2 {
@@ -849,10 +837,6 @@ li.tool .material-icons {
 
 .bg-white\/70 {
   background-color: rgb(255 255 255 / 0.7);
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-gray-50 {
@@ -959,6 +943,10 @@ li.tool .material-icons {
     aspect-ratio: 1.2 / 1;
   }
 
+  .md\:flex-\[1_0_40\%\] {
+    flex: 1 0 40%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -991,6 +979,10 @@ li.tool .material-icons {
 
   .lg\:block {
     display: block;
+  }
+
+  .lg\:flex-\[1_0_40\%\] {
+    flex: 1 0 40%;
   }
 
   .lg\:translate-x-0 {
